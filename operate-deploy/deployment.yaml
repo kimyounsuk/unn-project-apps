@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: nginx
   name: oprtest
@@ -19,7 +18,7 @@ spec:
     spec:
       containers:
       - name: ngin3
-        image: ec2-13-209-35-23.ap-northeast-2.compute.amazonaws.com/unn-project/testweb
+        image: ec2-13-209-35-23.ap-northeast-2.compute.amazonaws.com/unn-project/testweb:latest
         imagePullPolicy: Always
       imagePullSecrets:
       - name: harbor-secret
