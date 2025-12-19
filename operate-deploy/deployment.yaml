@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: ngin3
-        image: ec2-54-180-108-28.ap-northeast-2.compute.amazonaws.com/unn-project/nginx
+        image: nginx:latest
         imagePullPolicy: Always
 
