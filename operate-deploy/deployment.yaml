@@ -6,7 +6,7 @@ metadata:
     app: nginx
   name: unnnginx
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
