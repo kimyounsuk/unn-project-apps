@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: testoprv4
+  name: testoprv5
 spec:
   replicas: 2
   selector:
