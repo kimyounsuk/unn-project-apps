@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx11
-        image: nginx
+        image: ec2-13-209-96-13.ap-northeast-2.compute.amazonaws.com/unn-project/webv13:latest
         imagePullPolicy: Always
       imagePullSecrets:
       - name: harbor-secret
