@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: testoprv3
+  name: testoprv4
 spec:
   replicas: 2
   selector:
@@ -17,7 +17,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: ngin3
+      - name: nginx11
         image: ip-172-31-2-139.ap-northeast-2.compute.internal/unn-project/webv11
         imagePullPolicy: Always
       imagePullSecrets:
