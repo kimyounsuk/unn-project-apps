@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: yskim
+  name: yskimv1
 spec:
   replicas: 2
   selector:
