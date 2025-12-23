@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: testoprv8
+  name: nginx
 spec:
   replicas: 1
   selector:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx11
-        image: harbor.mycompany.local/unn-project/webv13:latest
+        image: ec2-15-164-214-220.ap-northeast-2.compute.amazonaws.com:8080/unn-project/webv1
         imagePullPolicy: Always
       imagePullSecrets:
       - name: harbor-secret
