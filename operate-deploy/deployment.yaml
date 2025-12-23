@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: nginx
+  name: yskim
 spec:
   replicas: 2
   selector:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx11
-        image: ec2-15-164-214-220.ap-northeast-2.compute.amazonaws.com/unn-project/webv01
+        image: ec2-15-164-214-220.ap-northeast-2.compute.amazonaws.com/unn-project/webv02
         imagePullPolicy: Always
       imagePullSecrets:
       - name: harbor-secret
