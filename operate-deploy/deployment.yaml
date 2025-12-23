@@ -15,6 +15,7 @@ spec:
       labels:
         app: nginx
     spec:
+      serviceAccountName: harbor-sa
       containers:
       - name: nginx11
         image: ec2-15-164-214-220.ap-northeast-2.compute.amazonaws.com/unn-project/webv02
