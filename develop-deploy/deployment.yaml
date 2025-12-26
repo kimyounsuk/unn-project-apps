@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ec2-15-164-222-57.ap-northeast-2.compute.amazonaws.com/unn-project/web01:latest
+        image: ec2-15-164-222-57.ap-northeast-2.compute.amazonaws.com/unn-project/web01:1
         imagePullPolicy: Always
 
