@@ -18,6 +18,6 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: ec2-43-201-76-192.ap-northeast-2.compute.amazonaws.com/unn-project/web03:latest
+      - name: oprnginx
+        image: ec2-15-164-222-57.ap-northeast-2.compute.amazonaws.com/unn-project/web03:latest
         imagePullPolicy: Always
